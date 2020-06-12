@@ -1,0 +1,32 @@
+.card{
+    margin-left: 23%;
+    background-color: #395266;
+    border-radius: 2%;
+    height: 500px;
+    width: 50%;
+}
+
+
+
+.btn{
+    font-family: 'Fredoka One', cursive;
+    height: 40px;
+    width: 20%;
+    margin-left: 40%;
+    border: "1px dotted red";
+    display: inline-block;
+    border: hidden;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #395266;
+    background-color: white;}
+.btn:hover{
+    cursor: pointer;
+    color:#414143;
+    background-color: #A0D2EB;
+    border: "1px dotted red";
+    }
+.btn:focus{
+ outline: none;
+}
