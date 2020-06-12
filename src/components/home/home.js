@@ -12,6 +12,9 @@ const logout = ()=>{
   }).then(()=>window.location.reload(true))
 }
 
+const viewCode=()=>{
+window.location.href = 'https://github.com/iam-nav/boyond-8-login-form'
+}
 
 
 export default function Home() {
@@ -21,7 +24,7 @@ export default function Home() {
 <div>
 <h1 style={{fontSize:"30px"}}>User Loged In<button className="btn" style={{marginTop:"100px"}} onClick={logout} >Logout</button></h1>
 
-<button className="btn" style={{marginTop:"20px"}} >View Code</button>
+<button className="btn" style={{marginTop:"20px"}} onClick={viewCode}  >View Code</button>
 </div>
 </div>
         </div>
