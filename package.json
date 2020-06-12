@@ -12,6 +12,7 @@
     "antd": "^4.3.3",
     "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
+    "express-favicon": "^2.0.1",
     "js-cookie": "^2.2.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
